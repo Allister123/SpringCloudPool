@@ -1,7 +1,12 @@
 # SpringCloudPool
 
-sc_eurekaserver ====== 注册中心（服务的注册与发现（Eureka）） http://127.0.0.1:8761/ 
+sc_eurekaserver ====== 注册中心（服务的注册与发现（Eureka）） 
+
 sc_service-hi   ======服务提供者
+
 sc_service-ribbon ==== 服务消费者（rest+ribbon）& 断路器（Hystrix）
+
 sc_service-feign ==== 服务消费者 （Feign）
+
 sc_service-zuul  ==== 路由网关(zuul)
+

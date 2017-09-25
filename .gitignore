@@ -1,22 +1,7 @@
-# Compiled class file
-*.class
 
-# Log file
-*.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+sc_eurekaserver ====== 注册中心（服务的注册与发现（Eureka）） http://127.0.0.1:8761/ 
+sc_service-hi   ======服务提供者
+sc_service-ribbon ==== 服务消费者（rest+ribbon）& 断路器（Hystrix）
+sc_service-feign ==== 服务消费者 （Feign）
+sc_service-zuul  ==== 路由网关(zuul)
